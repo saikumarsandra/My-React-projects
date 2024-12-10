@@ -1,1 +1,0 @@
-console.log("its react folder to store the practice files") 
