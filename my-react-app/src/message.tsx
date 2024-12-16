@@ -1,7 +1,12 @@
-function Message(){ // start the function name with  pascal cased( capital letter )
+import "./App.css"
 
+function Message(){ // start the function name with  pascal cased( capital letter )
+   const name = "saikumar"
     //jsx 
-    return <h1>this is sai react practice</h1>
+    return (<div className="text"> <h1>this is {name} react practice</h1>
+             <button className= "btn btn-success" >Follow Me</button>
+             </div>
+    )
 
 }
 export default Message;
